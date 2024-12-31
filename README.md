@@ -29,11 +29,11 @@ pip install tensorflow opencv-python matplotlib kaggle<br>
 *Run the Script: Execute the script in a Jupyter Notebook or Google Colab environment.<br>
 *Test the Model: Provide a test image of a cat or dog to validate predictions.<br>
 **Key Features**<br>
-Data Augmentation: Improves model generalization by applying transformations like rotation, zoom, and flips.
-Batch Normalization: Speeds up training and provides regularization.
-Dropout Layers: Reduces overfitting by randomly deactivating neurons during training.
-Pre-trained MobileNetV2: Enhances performance by utilizing transfer learning.
-Early Stopping: Saves time and prevents overfitting by stopping training when validation loss stops improving.
+-Data Augmentation: Improves model generalization by applying transformations like rotation, zoom, and flips.
+-Batch Normalization: Speeds up training and provides regularization.
+-Dropout Layers: Reduces overfitting by randomly deactivating neurons during training.
+-Pre-trained MobileNetV2: Enhances performance by utilizing transfer learning.
+-Early Stopping: Saves time and prevents overfitting by stopping training when validation loss stops improving.
 
 **Model Evaluation**<br>
 *Observations:*<br>
