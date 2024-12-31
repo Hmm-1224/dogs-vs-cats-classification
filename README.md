@@ -33,14 +33,14 @@ pip install tensorflow opencv-python matplotlib kaggle
 Run the script in a Jupyter Notebook or Google Colab environment.
 Provide a test image of a cat or dog to validate predictions.
 
-Key Features:
+Key Features
 Data Augmentation: Improves model generalization by applying transformations like rotation, zoom, and flips.
 Batch Normalization: Speeds up training and provides regularization.
 Dropout Layers: Reduces overfitting by randomly deactivating neurons during training.
 Pre-trained MobileNetV2: Enhances performance by utilizing transfer learning.
 Early Stopping: Saves time and prevents overfitting by stopping training when validation loss stops improving.
 
-Model Evaluation:
+Model Evaluation
 Observations:
 Without L2 regularization, the model performs better and avoids underfitting.
 Graphs of training and validation metrics help identify overfitting issues.
