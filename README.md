@@ -2,7 +2,7 @@
 
 This project demonstrates building and training a Convolutional Neural Network (CNN) to classify images of cats and dogs. The model leverages pre-trained MobileNetV2 for feature extraction, combined with custom convolutional and dense layers for the classification task.
 
-Project Structure
+**Project Structure**
 1. Dataset Handling
 Downloads and unzips the Cats vs. Dogs dataset.
 Augments training data using ImageDataGenerator.
@@ -25,24 +25,23 @@ Clone the Repository: Clone this repository or copy the script.
 Authenticate Dataset Download:
 Upload your Kaggle API token (kaggle.json) to authenticate and download the dataset.
 Install Dependencies:
-bash
-Copy code
 pip install tensorflow opencv-python matplotlib kaggle
 Run the Script: Execute the script in a Jupyter Notebook or Google Colab environment.
 Test the Model: Provide a test image of a cat or dog to validate predictions.
-Key Features
+**Key Features**
 Data Augmentation: Improves model generalization by applying transformations like rotation, zoom, and flips.
 Batch Normalization: Speeds up training and provides regularization.
 Dropout Layers: Reduces overfitting by randomly deactivating neurons during training.
 Pre-trained MobileNetV2: Enhances performance by utilizing transfer learning.
 Early Stopping: Saves time and prevents overfitting by stopping training when validation loss stops improving.
-Model Evaluation
-Observations
+
+**Model Evaluation**<br>
+*Observations*
 Without L2 regularization, the model performs better and avoids underfitting.
 Graphs of training and validation metrics help identify overfitting issues.
-Visualization
+*Visualization*
 Accuracy and Loss Curves: Displayed for both training and validation data to aid in analysis.
-Testing the Model
+*Testing the Model*
 Load a test image (cat or dog).
 Resize it to 256x256 pixels.
 Pass the image through the model for prediction.
