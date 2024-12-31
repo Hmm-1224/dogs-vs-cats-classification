@@ -41,7 +41,7 @@ Without L2 regularization, the model performs better and avoids underfitting.
 Graphs of training and validation metrics help identify overfitting issues.<br>
 *Visualization:*<br>
 Accuracy and Loss Curves: Displayed for both training and validation data to aid in analysis.
-*Testing the Model*
+*Testing the Model*<br>
 Load a test image (cat or dog).
 Resize it to 256x256 pixels.
 Pass the image through the model for prediction.
