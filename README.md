@@ -28,7 +28,7 @@ Upload your Kaggle API token (kaggle.json) to authenticate and download the data
 pip install tensorflow opencv-python matplotlib kaggle<br>
 *Run the Script: Execute the script in a Jupyter Notebook or Google Colab environment.<br>
 *Test the Model: Provide a test image of a cat or dog to validate predictions.<br>
-**Key Features**
+**Key Features**<br>
 Data Augmentation: Improves model generalization by applying transformations like rotation, zoom, and flips.
 Batch Normalization: Speeds up training and provides regularization.
 Dropout Layers: Reduces overfitting by randomly deactivating neurons during training.
