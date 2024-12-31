@@ -35,7 +35,7 @@ Dropout Layers: Reduces overfitting by randomly deactivating neurons during trai
 Pre-trained MobileNetV2: Enhances performance by utilizing transfer learning.
 Early Stopping: Saves time and prevents overfitting by stopping training when validation loss stops improving.
 
-**Model Evaluation**<br>
+**Model Evaluation**
 *Observations*
 Without L2 regularization, the model performs better and avoids underfitting.
 Graphs of training and validation metrics help identify overfitting issues.
