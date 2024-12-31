@@ -3,20 +3,20 @@ Cats vs. Dogs Classification with TensorFlow
 This project demonstrates building and training a Convolutional Neural Network (CNN) to classify images of cats and dogs. The model leverages pre-trained MobileNetV2 for feature extraction, combined with custom convolutional and dense layers for the classification task.
 
 Project Structure
-Dataset Handling:
 
+Dataset Handling:
 Downloads and unzips the Cats vs. Dogs dataset.
 Augments training data using ImageDataGenerator.
 Normalizes validation data for better performance.
-Model Architecture:
 
+Model Architecture:
 Uses MobileNetV2 as a frozen base for feature extraction.
 Adds custom layers:
 Convolutional layers with Batch Normalization and Max Pooling.
 Dense layers with Dropout for regularization.
 Output layer uses a sigmoid activation function for binary classification.
-Training and Evaluation:
 
+Training and Evaluation:
 Trains using binary_crossentropy loss and the Adam optimizer.
 Includes EarlyStopping to prevent overfitting by monitoring validation loss.
 Generates plots of accuracy and loss to visualize training progress.
