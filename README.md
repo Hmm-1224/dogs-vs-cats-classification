@@ -19,7 +19,7 @@ Optimizer: Adam.<br>
 Includes EarlyStopping to prevent overfitting by monitoring validation loss.<br>
 Generates plots of accuracy and loss to visualize training progress.<br>
 4. Testing<br>
-The trained model predicts whether a given image is a cat (label 0) or a dog (label 1).
+The trained model predicts whether a given image is a cat (label 0) or a dog (label 1).<br>
 *Steps to Run the Code:<br>
 Clone the Repository: Clone this repository or copy the script.<br>
 *Authenticate Dataset Download:<br>
@@ -40,20 +40,20 @@ pip install tensorflow opencv-python matplotlib kaggle<br>
 Without L2 regularization, the model performs better and avoids underfitting.
 Graphs of training and validation metrics help identify overfitting issues.<br>
 *Visualization:*<br>
-Accuracy and Loss Curves: Displayed for both training and validation data to aid in analysis.
+Accuracy and Loss Curves: Displayed for both training and validation data to aid in analysis.<br>
 *Testing the Model*<br>
-Load a test image (cat or dog).
-Resize it to 256x256 pixels.
-Pass the image through the model for prediction.
-Interpret the output:
-0: Cat.
-1: Dog.
-Example Prediction
-Input: Cat Image
-Output: [[0.]]
+*Load a test image (cat or dog).<br>
+*Resize it to 256x256 pixels.<br>
+*Pass the image through the model for prediction.<br>
+*Interpret the output:<br>
+*0: Cat.<br>
+*1: Dog.<br>
+Example Prediction<br>
+Input: Cat Image<br>
+Output: [[0.]]<br>
 
-Input: Dog Image
-Output: [[1.]]
+Input: Dog Image<br>
+Output: [[1.]]<br>
 
-References
-Dataset: Kaggle - Dogs vs. Cats
+References<br>
+Dataset: Kaggle - Dogs vs. Cats<br>
