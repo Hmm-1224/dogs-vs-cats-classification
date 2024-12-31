@@ -3,31 +3,31 @@
 This project demonstrates building and training a Convolutional Neural Network (CNN) to classify images of cats and dogs. The model leverages pre-trained MobileNetV2 for feature extraction, combined with custom convolutional and dense layers for the classification task.
 
 **Project Structure**
-1. Dataset Handling
+1. Dataset Handling<br>
 Downloads and unzips the Cats vs. Dogs dataset.
 Augments training data using ImageDataGenerator.
 Normalizes validation data for better performance.
-2. Model Architecture
+2. Model Architecture<br>
 Base Model: Uses MobileNetV2 as a frozen base for feature extraction.
 Custom Layers:
 Convolutional layers with Batch Normalization and Max Pooling.
 Dense layers with Dropout for regularization.
 Output layer with a sigmoid activation function for binary classification.
-3. Training and Evaluation
-Loss function: binary_crossentropy.
-Optimizer: Adam.
-Includes EarlyStopping to prevent overfitting by monitoring validation loss.
-Generates plots of accuracy and loss to visualize training progress.
-4. Testing
+3. Training and Evaluation<br>
+Loss function: binary_crossentropy.<br>
+Optimizer: Adam.<br>
+Includes EarlyStopping to prevent overfitting by monitoring validation loss.<br>
+Generates plots of accuracy and loss to visualize training progress.<br>
+4. Testing<br>
 The trained model predicts whether a given image is a cat (label 0) or a dog (label 1).
-Steps to Run the Code
-Clone the Repository: Clone this repository or copy the script.
-Authenticate Dataset Download:
-Upload your Kaggle API token (kaggle.json) to authenticate and download the dataset.
-Install Dependencies:
-pip install tensorflow opencv-python matplotlib kaggle
-Run the Script: Execute the script in a Jupyter Notebook or Google Colab environment.
-Test the Model: Provide a test image of a cat or dog to validate predictions.
+Steps to Run the Code:<br>
+Clone the Repository: Clone this repository or copy the script.<br>
+Authenticate Dataset Download:<br>
+Upload your Kaggle API token (kaggle.json) to authenticate and download the dataset.<br>
+Install Dependencies:<br>
+pip install tensorflow opencv-python matplotlib kaggle<br>
+Run the Script: Execute the script in a Jupyter Notebook or Google Colab environment.<br>
+Test the Model: Provide a test image of a cat or dog to validate predictions.<br>
 **Key Features**
 Data Augmentation: Improves model generalization by applying transformations like rotation, zoom, and flips.
 Batch Normalization: Speeds up training and provides regularization.
