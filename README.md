@@ -20,14 +20,14 @@ Includes EarlyStopping to prevent overfitting by monitoring validation loss.<br>
 Generates plots of accuracy and loss to visualize training progress.<br>
 4. Testing<br>
 The trained model predicts whether a given image is a cat (label 0) or a dog (label 1).
-Steps to Run the Code:<br>
+*Steps to Run the Code:<br>
 Clone the Repository: Clone this repository or copy the script.<br>
-Authenticate Dataset Download:<br>
+*Authenticate Dataset Download:<br>
 Upload your Kaggle API token (kaggle.json) to authenticate and download the dataset.<br>
-Install Dependencies:<br>
+*Install Dependencies:<br>
 pip install tensorflow opencv-python matplotlib kaggle<br>
-Run the Script: Execute the script in a Jupyter Notebook or Google Colab environment.<br>
-Test the Model: Provide a test image of a cat or dog to validate predictions.<br>
+*Run the Script: Execute the script in a Jupyter Notebook or Google Colab environment.<br>
+*Test the Model: Provide a test image of a cat or dog to validate predictions.<br>
 **Key Features**
 Data Augmentation: Improves model generalization by applying transformations like rotation, zoom, and flips.
 Batch Normalization: Speeds up training and provides regularization.
